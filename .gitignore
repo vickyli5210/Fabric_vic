@@ -353,3 +353,17 @@ tmp/
 
 # Ignore .claude/
 .claude/
+# pnpm store and cache - NEVER commit
+.pnpm-store/
+.pnpm/
+
+# Node modules - NEVER commit
+# node_modules/ is already handled above
+
+# Lock file caches - NEVER commit
+pnpm-lock.yaml.backup
+pnpm-lock.yaml~
+
+# KEEP IN REPO:
+# package.json (committed)
+# pnpm-lock.yaml (committed)
